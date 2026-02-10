@@ -1,0 +1,26 @@
+python-telegram-bot==21.5
+Flask==2.3.3
+requests==2.31.0
+python-dotenv==1.0.0
+cryptography==41.0.7
+
+# Para connection pooling y optimización SQLite
+# dbutils==3.0.1  # Opcional si se quiere connection pooling avanzado
+
+# Para logging mejorado
+structlog==23.1.0
+
+# Para validación (opcional, se usa regex nativo)
+# pydantic==2.5.0  # Opcional para validación avanzada
+
+# Para testing y desarrollo
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# Para seguridad
+python-dateutil==2.8.2
+
+# Pasarelas de Pago
+stripe>=5.0.0
